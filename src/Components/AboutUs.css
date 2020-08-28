@@ -1,0 +1,13 @@
+.contentAbout {
+    width: 100%;
+    height: 650px;
+}
+.widthContent {
+    width: 45%;
+}
+
+.flexItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

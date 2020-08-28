@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+.banerImag {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/Rectangle.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.colorText{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.italicsText {
+    font-weight: 300;
+}
+.thicknessText {
+    font-size: 20px;
+    font-weight: 600;
+}
+.centerButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.mgButton {
+    margin-left: 15px;
+}
+.btnHover {
+    border: 1px solid white;
+    border-radius: 0px;
+}
+.btnHover:hover {
+    background-color: #00897b;
+    border: 1px solid #00897b;
+}
+.row h1 {
+    font-size: 50px;
+    
+}
+.row h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-device-width: 765px) {
+    .banerImag {
+        height: 400px;
+        background-position: center;
+        overflow: hidden;
+    }
+    .row h1 {
+        font-size: 25px;
+    }
+
+    .row h3 {
+        font-size: 12px;
+    }
+    .thicknessText {
+        font-size: 10px;
+    }
+    
+}
