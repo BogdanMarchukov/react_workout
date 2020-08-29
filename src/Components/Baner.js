@@ -5,7 +5,7 @@ class Baner extends Component {
         return (
             <div className="banerImag">
                 <div className="row justify-content-center">
-                    <div className= "col-xl-6 align-items-center text-center colorText">
+                    <div className= "col-xl-7 align-items-center text-center colorText">
                         <h1>Web development project</h1>
                         <h3 className= "italicsText">Very suitable to support all web development projects</h3>
                     </div>

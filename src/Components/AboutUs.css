@@ -1,13 +1,57 @@
+
 .contentAbout {
     width: 100%;
     height: 650px;
 }
 .widthContent {
-    width: 45%;
+    width: 50%;
+    margin-bottom: 124px;
 }
 
 .flexItems {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sizeText {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sizeP {
+    font-size: 20px;
+}
+
+@media screen and (max-device-width: 765px){
+    .widthContent {
+        margin-bottom: 10px;
+        width: 92%;
+    }
+
+    .sizeText {
+        font-size: 25px;
+    }
+
+    .sizeImg_1 {
+        width: 47px;
+        height: 47px;
+    }
+
+    .sizeImg_2 {
+        width: 55px;
+        height: 45px;
+    }
+
+    .sizeImg_3 {
+        width: 42px;
+        height: 48px;
+    }
+
+    .fontSize{
+        font-size: 25px;
+    }
+
+
+
 }

@@ -10,8 +10,8 @@ export default class AboutUs extends Component {
             <div>
                 <div className="contentAbout d-flex justify-content-center flex-column">
                     <div className="container widthContent">
-                        <h2 className="text-center"><strong>About Us</strong></h2>
-                        <p className="text-center">
+                        <h2 className="text-center sizeText"><strong>About Us</strong></h2>
+                        <p className="text-center sizeP">
                             <small>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -22,8 +22,8 @@ export default class AboutUs extends Component {
                         <div className="row">
                             <div className="col-lg-4">
                                 <div className="container flexItems">
-                                    <img src={internet}/>
-                                    <h2 className="text-center">Awesome Icons</h2>
+                                    <img className="sizeImg_1" src={internet}/>
+                                    <h2 className="text-center mt-lg-3 mb-lg-0 fontSize">Awesome Icons</h2>
                                     <h3 className="text-center">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                                         sed do eiusmod tempor
@@ -32,8 +32,8 @@ export default class AboutUs extends Component {
                             </div>
                             <div className="col-lg-4">
                                 <div className="container flexItems">
-                                    <img src={transfer}/>
-                                    <h2 className="text-center">Awesome Icons</h2>
+                                    <img className="sizeImg_2" src={transfer}/>
+                                    <h2 className="text-center mt-lg-3 mb-lg-0 fontSize">One Page</h2>
                                     <h3 className="text-center">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                                         sed do eiusmod tempor
@@ -42,8 +42,8 @@ export default class AboutUs extends Component {
                             </div>
                             <div className="col-lg-4">
                                 <div className="container flexItems">
-                                    <img src={head}/>
-                                    <h2 className="text-center">Awesome Icons</h2>
+                                    <img className="sizeImg_3" src={head}/>
+                                    <h2 className="text-center mt-lg-3 mb-lg-0 fontSize">Fully Responsive</h2>
                                     <h3 className="text-center">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                                         sed do eiusmod tempor
