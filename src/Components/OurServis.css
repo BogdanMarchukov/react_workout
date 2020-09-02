@@ -1,0 +1,55 @@
+.contentServis{
+    width: 100%;
+    height: 1411px;
+    background-color: #e4fdf9;
+}
+
+.textContent {
+    width: 50%;
+}
+
+.btnHover{
+    border: 2px solid black;
+}
+
+.contentServis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sizeTextServis{
+    font-size: 17px;
+}
+
+.bgNone {
+    background-color: #00897b;
+    transition: background-color 0.15s linear;
+}
+
+.heightConteiner {
+    height: 350px;
+}
+
+.flexBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnHover:hover{
+    border: 2px solid #ffff;
+    color: #ffff;
+}
+
+.widthTabServis{
+    width: 80%;
+}
+
+.widthTab{
+    width: 80%;
+}
+
+.heightTab{
+    height: 441px;
+}
