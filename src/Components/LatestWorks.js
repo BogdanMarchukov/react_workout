@@ -14,10 +14,10 @@ export default class LatestWorks extends Component {
 
         return (
             <div className="latestWorkContent">
-                <div className='textWorkContent'>
+                <div className='textWorkContent container'>
                     <h2>{works.h2}</h2>
                     <p>{works.p}</p>
-                    <div className="buttonWorkContent">
+                    <div className="buttonWorkContent container">
                         <button>{works.button1}</button>
                         <button>{works.button2}</button>
                         <button>{works.button3}</button>
@@ -25,29 +25,29 @@ export default class LatestWorks extends Component {
                     </div>
                 </div>
                 <div classname='imgBlokWorkContent'>
-                    <div className='row'>
-                        <div className='col'>
-                            <img src={img1}></img>
+                    <div className='row widthRowWorkContent mx-auto'>
+                        <div className="bgImgWork">
+                            <img src={img1} />
                         </div>
-                        <div className='col'>
-                            <img src={img2}></img>
+                        <div className='col-lg imgWorks bgImgWork'>
+                            <img src={img2} />
                         </div>
-                        <div className='col'>
-                            <img src={img3}></img>
+                        <div className='col-lg imgWorks bgImgWork'>
+                            <img src={img3} />
                         </div>
-                        <div className='w-100 my-4'></div>
-                        <div className='col'>
-                            <img src={img4}></img>
+                        <div className='w-100 my-3'></div>
+                        <div className='col-lg imgWorks bgImgWork'>
+                            <img src={img4} />
                         </div>
-                        <div className='col'>
-                            <img src={img5}></img>
+                        <div className='col-lg imgWorks bgImgWork'>
+                            <img src={img5} />
                         </div>
-                        <div className='col'>
-                            <img src={img6}></img>
+                        <div className='col-lg imgWorks bgImgWork'>
+                            <img src={img6} />
                         </div>
                     </div>
                 </div>
-                <div className="btnWorkContent">
+                <div className="btnWorkContent container">
                     <button>{works.button5}</button>
                 </div>
             </div>
